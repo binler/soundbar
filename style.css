@@ -19,3 +19,14 @@ body {
     color: #fff;
     font-size: 112px;
 }
+.fam {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(232, 77, 216);
+    transform: translateX(-200px);
+    transition: all .3s linear;
+}
+.active {
+  transform: translateX(200px);
+}
